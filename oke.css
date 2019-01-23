@@ -1,0 +1,349 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* style */
+body{
+	font: 16px/28px arial, sans-serif;
+	background-color: #808080;
+	background-image: url(image/background.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 1350px;
+	background-attachment: fixed;
+	color: #333;
+}
+
+
+
+.container{
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+}
+
+.header{
+	padding: 20px;
+	background-image: url(image/logo1.png);
+	background-repeat: no-repeat;
+	background-position: 560 -14px;
+
+}
+
+.judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.logowa {
+	height: 50px;
+	position: fixed;
+	z-index: 1000;
+	right: 0px;
+	top : 30%;
+}
+
+.logomsg {
+	height: 50px;
+	position: fixed;
+	z-index: 1000000000;
+	right: 0px;
+	bottom : 50%;
+}
+
+#runningtext{
+	width: 100%;
+	height: 25px;
+	padding-top: 7px;
+	margin: 5px 0 5px 0;
+	background-color: #964B00;
+	color: white;
+	position: relative;
+	font-size: 16px;
+	font-style: italic;
+}
+
+
+
+
+
+
+.swiper-container
+{
+  width: 100%;
+  padding-top: 50px;
+ 
+}
+.swiper-slide
+{
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  border-top: 1px solid #964B00;
+	border-bottom: 1px solid #964B00;
+	border-right:1px solid #964B00;
+	border-left:1px solid #964B00;
+}
+
+.gambar
+{
+  width: 300px;
+  height: 280px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	background-color: #333;
+	padding: 10px
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
+
+#isi{
+	padding: 3px;
+	width: 70%;
+	height: auto;
+	background-color: #964B00;
+	position: relative;
+	margin-top: 5px;
+}
+
+.produklain{
+	background-color: #bc9d64;
+	width: 98%;
+	height: auto;
+	margin-bottom: 3px;
+	padding: 5px;
+}
+
+.gambardepan{
+	float: left;
+	height: 140px;
+	width: 150px;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding: 1px;
+	
+}
+
+.produklain h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #0000FF;
+	margin-top: 4px;
+	margin-bottom: 3px;
+}
+
+.produklain h3{
+	font-size: 14px;
+	text-align: justify;
+}
+
+.produklain a{
+	text-decoration: none;
+	color: #FF0000;
+	font-size: 16px;
+	font-style: italic;
+}
+
+
+.produklain a:hover{
+	color: yellow;
+}
+
+
+#sidebar{
+	padding-top: 5px;
+	width: 27%;
+	background-color: #964B00;
+	position: relative;
+	float: right;
+	border-style: dotted;
+	border-width: 1px;
+}
+
+.widged{
+	width: 99%;
+	background-bottom: 5px;
+	background: #ffffff;
+	border-top: 1px solid #964B00;
+	border-bottom: 1px solid #964B00;
+	border-right:1px solid #964B00;
+	border-left:1px solid #964B00;
+	font-size: 100%;
+	margin: 0px 0px 5px 0px;
+}
+
+.gambariklan{
+	width: 99%;
+	height: 150px;
+}
+
+.judulwidged{
+	background: #d74006;
+	padding: 5px 36px 5px 37px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.widged ul{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+}
+
+.widged li {
+	padding: 0px 0px 0px 0px;
+	background-position: left;
+	background-repeat:no-repeat;
+	color: #333333;
+}
+
+.widged li a{
+	color: #333333;
+	border-bottom: 1px dotted #964B00;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 5px;
+	padding:4px 5px 3px 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.widged li a:hover {
+	color: blue;
+}
+
+
+.produklainall{
+	background-color: #bc9d64;
+	width: 98%;
+	height: auto;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.produklainall h2{
+	text-align: center;
+	color: #0000FF;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.produklainall h3{
+	font-size: 14px;
+	text-align: justify;
+}
+
+.gambarla{
+	height: 270px;
+	float: center;
+}
+
+.gambarwwp{
+	height: 300px;
+	float: center;
+}
+
+.gambarcpd{
+	height: 350px;
+	float: center;
+}
+
+.gambarsh{
+	height: 370px;
+	position: center;
+}
+
+.gambardoll{
+	height: 500px;
+	position: center;
+}
+
+.gambarmmkids{
+	height: 300px;
+	position: center;
+}
+
